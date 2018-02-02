@@ -20,7 +20,7 @@ Step One:
                     _id
                 }
               }
-and we should get the value of the id called "_id", and use it below to execute a associate data saving.
+and we should get the value of the id called "_id" the last mutation responsed, and use it below to execute a associate data saving.
 
 Step Two:
 
