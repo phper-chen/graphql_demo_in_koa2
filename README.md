@@ -37,12 +37,18 @@ Step one:
 
 Step two:
             query{
-                users {
-                    name
-                    gender
-                    age
-                    socialInfo
+               users {
+                name
+                age
+                gender
+                socialInfo {
+                  _id
+                  email
+                  phone
                 }
+              }
             }
+
+
 
 
