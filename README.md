@@ -36,8 +36,9 @@ Step one:
             }
 
 Step two:
+
             query{
-               users {
+              users {
                 name
                 age
                 gender
@@ -48,7 +49,6 @@ Step two:
                 }
               }
             }
-
 
 
 
