@@ -1,11 +1,11 @@
 # graphqlTest
-firstly npm i
+Firstly npm i
 
-secondly open a ide of graphql by visiting ur site localhost:3344/graphiql
+Secondly open a ide of graphql by visiting ur site localhost:3344/graphiql
 
-then we can insert some data with the ide by making mutation
+Then we can insert some data with the ide by making mutation
 
-step one:
+Step one:
 
             mutation{
               infoSave(
@@ -21,6 +21,8 @@ step one:
                 }
               }
 and we should get the value of the id called "_id", and use it below to execute a associate data saving.
+Step one:
+
 
             mutation{
               userSave(
@@ -31,6 +33,16 @@ and we should get the value of the id called "_id", and use it below to execute 
                ){
                 _id
               }
+            }
+
+Step two:
+            query{
+                users {
+                    name
+                    gender
+                    age
+                    socialInfo
+                }
             }
 
 
