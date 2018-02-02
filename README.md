@@ -5,7 +5,7 @@ Secondly open a ide of graphql by visiting ur site localhost:3344/graphiql
 
 Then we can insert some data with the ide by making mutation
 
-Step one:
+Step One:
 
             mutation{
               infoSave(
@@ -22,7 +22,7 @@ Step one:
               }
 and we should get the value of the id called "_id", and use it below to execute a associate data saving.
 
-Step one:
+Step Two:
 
 
             mutation{
@@ -36,7 +36,7 @@ Step one:
               }
             }
 
-Step two:
+Step Three:
 
             query{
               users {
