@@ -1,11 +1,13 @@
 # graphqlTest
 Firstly npm i
 
+After dependencies installed, u should install pm2 globally, and use comand "pm2 start ecosystem.config.js" to run our server
+
 Secondly open a ide of graphql by visiting ur site localhost:3344/graphiql
 
 Then we can insert some data with the ide by making mutation
 
-Step One:
+Step 1:
 
             mutation{
               infoSave(
@@ -20,9 +22,9 @@ Step One:
                     _id
                 }
               }
-and we should get the value of the id called "_id" the last mutation responsed, and use it below to execute a associate data saving.
+now we should get the value of the id called "_id" the last "mutation" responsed, and use it in "step 3" to execute a associate data saving.
 
-Step Two:
+Step 2:
 
 
             mutation{
@@ -36,7 +38,7 @@ Step Two:
               }
             }
 
-Step Three:
+Step 3:
 
             query{
               users {
