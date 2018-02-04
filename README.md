@@ -1,4 +1,4 @@
-# graphqlTest
+# Graphql demo with query and mutation
 Firstly npm i
 
 After dependencies installed, u should install pm2 globally, and use comand "pm2 start ecosystem.config.js" to run our server
